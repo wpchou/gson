@@ -73,7 +73,7 @@
         </plugins>
       </build>
     </profile>
-  </profiles>  
+  </profiles>
   <build>
     <defaultGoal>package</defaultGoal>
     <plugins>
@@ -82,8 +82,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.5.1</version>
         <configuration>
-          <source>1.6</source>
-          <target>1.6</target>
+          <source>11</source>
+          <target>11</target>
           <compilerArgument>-proc:none</compilerArgument>
         </configuration>
       </plugin>
